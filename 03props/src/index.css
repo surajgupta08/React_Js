@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "helvetica neue";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: gainsboro;
+}
+
+.card {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card h1 {
+  margin-bottom: 10px;
+}
+
+.card button {
+  margin-top: 20px;
+  background-color: yellowgreen;
+  border: 0.5px yellow solid;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.parent {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
