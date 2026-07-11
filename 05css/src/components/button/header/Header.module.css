@@ -1,0 +1,11 @@
+.header{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: center;
+    /* margin: 5px; */
+}
+.btn{
+    background-color: yellow;
+}
